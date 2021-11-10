@@ -235,7 +235,7 @@
 
 .modal-content
 {
-    max-width: 30%;
+    max-width: 70%;
     position: relative;
     margin: 1em auto;
     background-color: var(--color-light-darked);
@@ -282,7 +282,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-light);
     padding: 1em;
 }
 
@@ -381,6 +380,19 @@
     .dropdown-menu
     {
         position: absolute;
+    }
+
+    .modal-content
+    {
+        max-width: 30%;
+        position: relative;
+        margin: 1em auto;
+        background-color: var(--color-light-darked);
+        border-radius: 0.3em;
+        display: flex;
+        flex-direction: column;
+        max-height: calc(100vh-2em);
+        overflow: hidden;
     }
 }
 
