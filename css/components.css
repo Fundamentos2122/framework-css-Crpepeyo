@@ -500,3 +500,7 @@ textarea {
     background-color: var(--color-dark);
     border-color: var(--color-dark);
 }
+
+.show {
+    display: block;
+}
